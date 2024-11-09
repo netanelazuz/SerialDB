@@ -1,5 +1,5 @@
 using System;
-using System.Data.SqlClient;
+using Microsoft.Data.Sqlite;
 using System.Windows.Forms;
 
 public partial class AddComponentForm : Form
@@ -9,23 +9,27 @@ public partial class AddComponentForm : Form
         InitializeComponent();
     }
 
-    private void SaveButton_Click(object sender, EventArgs e)
+    private void saveButton_Click(object sender, EventArgs e)
     {
-        // שמירת קומפוננטה חדשה בבסיס הנתונים
-        string connectionString = "Data Source=SERVER_NAME;Initial Catalog=LabIntake;Integrated Security=True";
-        string query = "INSERT INTO Components (ClientName, ContactPhone, Purpose) VALUES (@ClientName, @ContactPhone, @Purpose)";
+        string clientName = clientNameTextBox.Text;
+        string contactPhone = contactPhoneTextBox.Text;
+        string purpose = purposeTextBox.Text;
+        string serialNumber = serialNumberTextBox.Text;
 
-        using (SqlConnection connection = new SqlConnection(connectionString))
-        using (SqlCommand command = new SqlCommand(query, connection))
+        // בדיקה שכל השדות מולאו
+        if (string.IsNullOrWhiteSpace(clientName) || string.IsNullOrWhiteSpace(serialNumber))
         {
-            command.Parameters.AddWithValue("@ClientName", clientNameTextBox.Text);
-            command.Parameters.AddWithValue("@ContactPhone", phoneTextBox.Text);
-            command.Parameters.AddWithValue("@Purpose", purposeTextBox.Text);
-
-            connection.Open();
-            command.ExecuteNonQuery();
-            MessageBox.Show("הקומפוננטה נשמרה בהצלחה.");
-            this.Close();
+            MessageBox.Show("אנא מלא את שם הלקוח והסיריאלי.");
+            return;
         }
+
+        // הוספת הנתונים למסד הנתונים
+        dbManager.AddComponent(clientName, contactPhone, purpose, serialNumber);
+
+        // עדכון והצגת הודעה על הצלחה
+        MessageBox.Show("מחשב הוכנס בהצלחה למערכת.");
+        this.Close();
     }
+}
+
 }

@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Ozd5WzaI93XH6MfR1Y6mB/XYRpiG/xU/9gf0r6/2jYV0R2n9GtG/zYT1DR+oP4feZWE5XTWfTQegfx5y9gAhYw==",
+  "dgSpecHash": "SyhN6VL5upFbzDbeFjf+4v6LYlZQ3tzozyG0jv/5MW20X1jNyGUpR7UO5THZBefIdjOkQoteSbHQpRoSWYc8WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\netan\\Desktop\\GitHub repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\נתנאל עזוז\\Desktop\\GitHub Repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\נתנאל עזוז\\.nuget\\packages\\microsoft.data.sqlite\\8.0.10\\microsoft.data.sqlite.8.0.10.nupkg.sha512",
+    "C:\\Users\\נתנאל עזוז\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
+    "C:\\Users\\נתנאל עזוז\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\נתנאל עזוז\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\נתנאל עזוז\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\נתנאל עזוז\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\נתנאל עזוז\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

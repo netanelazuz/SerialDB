@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\netan\\Desktop\\GitHub repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj": {}
+    "C:\\Users\\נתנאל עזוז\\Desktop\\GitHub Repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\netan\\Desktop\\GitHub repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj": {
+    "C:\\Users\\נתנאל עזוז\\Desktop\\GitHub Repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\netan\\Desktop\\GitHub repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj",
+        "projectUniqueName": "C:\\Users\\נתנאל עזוז\\Desktop\\GitHub Repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj",
         "projectName": "LabIntakeApp",
-        "projectPath": "C:\\Users\\netan\\Desktop\\GitHub repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj",
-        "packagesPath": "C:\\Users\\netan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\netan\\Desktop\\GitHub repositories\\SerialDB\\LabIntakeApp\\obj\\",
+        "projectPath": "C:\\Users\\נתנאל עזוז\\Desktop\\GitHub Repositories\\SerialDB\\LabIntakeApp\\LabIntakeApp.csproj",
+        "packagesPath": "C:\\Users\\נתנאל עזוז\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\נתנאל עזוז\\Desktop\\GitHub Repositories\\SerialDB\\LabIntakeApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\netan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\נתנאל עזוז\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
@@ -38,6 +39,12 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

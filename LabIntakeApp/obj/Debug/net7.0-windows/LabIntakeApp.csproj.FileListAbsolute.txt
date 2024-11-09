@@ -13,3 +13,11 @@ C:\Users\netan\Desktop\GitHub repositories\SerialDB\LabIntakeApp\obj\Debug\net7.
 C:\Users\netan\Desktop\GitHub repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.pdb
 C:\Users\netan\Desktop\GitHub repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.genruntimeconfig.cache
 C:\Users\netan\Desktop\GitHub repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\ref\LabIntakeApp.dll
+C:\Users\נתנאל עזוז\Desktop\GitHub Repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.csproj.AssemblyReference.cache
+C:\Users\נתנאל עזוז\Desktop\GitHub Repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\נתנאל עזוז\Desktop\GitHub Repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.AssemblyInfoInputs.cache
+C:\Users\נתנאל עזוז\Desktop\GitHub Repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.AssemblyInfo.cs
+C:\Users\נתנאל עזוז\Desktop\GitHub Repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.csproj.CoreCompileInputs.cache
+C:\Users\נתנאל עזוז\Desktop\GitHub Repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.dll
+C:\Users\נתנאל עזוז\Desktop\GitHub Repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\refint\LabIntakeApp.dll
+C:\Users\נתנאל עזוז\Desktop\GitHub Repositories\SerialDB\LabIntakeApp\obj\Debug\net7.0-windows\LabIntakeApp.pdb
